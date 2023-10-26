@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+/* ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+::-webkit-scrollbar-thumb {
+    background: #4D5E5C; 
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #E6C388; 
+  }
+  ::-webkit-scrollbar {
+    height: -10px;
+} */
+
+@font-face {
+    font-family: 'Qimaky';
+    src: url('./fonts/Qimaky.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('./fonts/Agrandir-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

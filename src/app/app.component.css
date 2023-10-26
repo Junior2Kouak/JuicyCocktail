@@ -1,0 +1,105 @@
+:host{
+ font-family: 'Agrandir', sans-serif;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about{
+    background-color: rgb(150, 173, 18);
+    height: 100vh;
+}
+#services{
+    background-color: rgb(1, 124, 83);
+    height: 100vh;
+}
+#carte{
+    background-color: rgb(85, 18, 173);
+    height: 100vh;
+}
+#contact{
+    background-color: rgb(173, 18, 57);
+    height: 100vh;
+}
+#devis{
+    background-color: rgb(18, 173, 31);
+    height: 100vh;
+}
+footer{
+
+}
+p{
+    color: white;
+    text-align: center;
+}
+.menu>li{
+    list-style: none;
+}
+.menu>li>a{
+    font-family: 'Agrandir', sans-serif;
+    color: #E6C388;
+    text-decoration: none;
+}
+.phrase1{
+    font-family: 'Qimaky', sans-serif;
+    color: #E6C388;
+    font-size: 50px;
+}
+button{
+    font-family: 'Agrandir', sans-serif;
+}
+.knowMore{
+    border: 1px solid #E6C388;
+    color: #E6C388;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.mg-a{
+    margin: auto;
+    width: 200px;
+}
+.more{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttonDevis{
+    background-color: #E6C388;
+    color:#0C1A16;
+    font-weight: bold;
+    border: #E6C388 solid 1px;
+    padding: 10px;
+}
+.logo{
+    width: 100px;
+}
+
+button {
+    cursor: pointer;
+}
+.rs{
+    width: 50px;
+    height: 100px;
+    border: #E6C388 1px solid;
+    background-color: #3A4844;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+}
+.rs > img{
+    margin-bottom: 30px;
+}
